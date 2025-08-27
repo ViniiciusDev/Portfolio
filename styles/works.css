@@ -1,0 +1,19 @@
+.works-section {
+    & .works-title  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding-block: 4.5rem 3.5rem;
+
+        & h2    {
+            font: var(--subtitle);
+            color: var(--red);
+        }
+
+        & h3    {
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+    }
+}
