@@ -1,0 +1,52 @@
+.services-section  {
+    background-color: var(--gray-100);
+
+    & .services-title   {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
+        padding-block: 5.5rem 3.5rem;
+
+        & h2    {
+            font: var(--subtitle);
+            color: var(--red);
+        }
+
+        & h3    {
+            font: var(--title-md);
+            color: var(--gray-600);
+        }
+    }
+
+    & .service-grid {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        padding-bottom: 7.5rem;
+
+        & .service-item {
+            max-width: 17.5rem;
+            border: 2px solid var(--gray-200);
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+
+            & img   {
+                max-width: 3rem;
+                height: 3rem;
+                margin-bottom: 1.25rem;
+            }
+
+            & h3 {
+                color: var(--gray-600);
+                font: var(--title-sm);
+                margin-bottom: .5rem;
+            }
+
+            & p {
+                color: var(--gray-500);
+                font: var(--text-sm);
+            }
+        }
+    }
+}
