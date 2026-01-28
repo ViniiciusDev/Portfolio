@@ -43,6 +43,12 @@ main  {
   background-color: var(--gray-200);
 }
 
+footer  {
+  background-image: url(../assets/background/Background_Contacts.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container  {
   max-width: 1040px;
   margin: auto;
